@@ -27,21 +27,25 @@ allprojects {
 }
 
 ext {
-
     androidCompileSdkVersion = 27
     androidMinSdkVersion = 19
     androidTargetSdkVersion = 27
 
     supportLibraryVersion = '27.1.1'
     retrofitVersion = '2.1.0'
+    versionPicasso = '2.5.2'
+    constraintLayout = '1.1.2'
 
     dependencies = [
             appCompat: "com.android.support:appcompat-v7:$supportLibraryVersion",
+            design: "com.android.support:design:$supportLibraryVersion",
             cardView: "com.android.support:cardview-v7:$supportLibraryVersion",
             recyclerView: "com.android.support:recyclerview-v7:$supportLibraryVersion",
+            vectorDrawable: "com.android.support:support-vector-drawable:$supportLibraryVersion",
+            constraintLayout:"com.android.support.constraint:constraint-layout:$constraintLayout",
             retrofit: "com.squareup.retrofit2:retrofit:$retrofitVersion",
             retrofitConverterGson: "com.squareup.retrofit2:converter-gson:$retrofitVersion",
-            picasso: 'com.squareup.picasso:picasso:2.5.2',
+            picasso: "com.squareup.picasso:picasso:$versionPicasso",
     ]
 }
 
