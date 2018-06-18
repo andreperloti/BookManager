@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gerenciador de Livros</string>
+    <string name="title_activity_base">Gerenciador de Livros</string>
+    <string name="title_search">Pesquisar</string>
+    <string name="title_wishlist">Desejo</string>
+    <string name="title_read">Lido</string>
+    <string name="no_results_for_this_search_try_again_with_other_words">Nenhum resultado para está busca, tente novamente com outras palavras</string>
+    <string name="no_internet_connection">Sem conexão com a internet</string>
+    <string name="server_currently_unavailable">Servidor indisponível no momento</string>
+    <string name="not_authorized">Não Autorizado</string>
+    <string name="error_try_again_later">Erro, Tente Novamente mais Tarde</string>
+    <string name="error_try_again">Erro, Tente Novamente</string>
+    <string name="minimum_of_three_characters">Mínimo de três caracteres</string>
+    <string name="no_book_marked_as_read">Nenhum livro marcado como lido</string>
+    <string name="displaying_results_from">Exibindo resultados de:</string>
+    <string name="empty_wishlist">Lista de desejos vazia</string>
+
+    <string name="empty_view_read">Nenhum livro marcado como lido</string>
+    <string name="empty_view_wishlist">Lista de desejos vazia</string>
+    <string name="view_more">Ver mais</string>
+    <string name="detail_book">Detalhes Livro</string>
+
+</resources>

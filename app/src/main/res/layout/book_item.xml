@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:background="#151515"
+                android:maxHeight="150dp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <include layout="@layout/include_divisor_horizontal" />
+
+            <TextView
+                android:id="@+id/text_view_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="#000000"
+                android:textSize="@dimen/material_text_title" />
+
+            <TextView
+                android:id="@+id/text_view_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:maxLines="2"
+                android:text="Authors"
+                android:textSize="@dimen/material_text_subtitle" />
+
+
+            <Button
+                android:id="@+id/button_view_more"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/base_button_default"
+                android:paddingLeft="@dimen/material_margin_phone"
+                android:paddingRight="@dimen/material_margin_phone"
+                android:text="@string/view_more"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/material_text_button" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
